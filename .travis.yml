@@ -6,3 +6,5 @@ jdk:
 
 script:
   - javac HelloWorld.java
+  - mvn package
+  - mvn compile
