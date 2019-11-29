@@ -1,4 +1,8 @@
 language: java
 
+jdk:
+  - openjdk8
+  - openjdk9
+
 script:
   - javac HelloWorld.java
